@@ -1,0 +1,5 @@
+i ← input
+j ← 1⌽i //left shifts the input by onw
+l ← j-i //applies element by element subtraction
+k ← l ≥ 1 //checks which element are positive meaning that the value has increased
++⌿k∘.=1 //count all the all the ones in k
