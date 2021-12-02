@@ -1,9 +1,6 @@
 ins ← input[⍸(2|⍳⍴input)=1] 
 steps ← input[⍸(2|⍳⍴input)=0]
-forwards ← ⍸((⊂'forward')⍷ins)=1
-downs ← ⍸((⊂'down')⍷ins)=1
-ups ← ⍸((⊂'up')⍷ins)=1
-forward ← +/steps[forwards]
-down ← +/steps[downs]
-up ← +/steps[ups]
+forward ← +/steps[⍸((⊂'forward')⍷ins)=1]
+down ← +/steps[⍸((⊂'down')⍷ins)=1]
+up ← +/steps[⍸((⊂'up')⍷ins)=1]
 forward×(down - up)
