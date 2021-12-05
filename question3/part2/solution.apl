@@ -19,5 +19,8 @@ most_common ←  ⊃amount_1 ≥  amount_0
 inp←(∊((⊃⍴⍪input)(⍴⊃⍪input)))⍴∊input ⍝ creates matrix from input
 calc_most_common ← {(+⌿⍵)≥(⊃⍴⍵)-(+⌿⍵)}
 calc_least_common ← {(+⌿⍵)<(⊃⍴⍵)-(+⌿⍵)}
-get_rows ← {(⍵[;⍺]=⍺⌷calc_most_common ⍵)⌿⍵} ⍝ get rows based on most common
-get_rows ← {(⍵[;⍺]=calc_least_common ⍵)⌿⍵}
+get_rows_1 ← {(⍵[;⍺]=⍺⌷calc_most_common ⍵)⌿⍵} ⍝ get rows based on most common
+get_rows_2 ← {(⍵[;⍺]=⍺⌷calc_least_common ⍵)⌿⍵}
+solve_1 ← {(⊃⍴⍵)=1:⍵ ⋄ (⍺+1) ∇ (⍺ get_rows_1 ⍵)}
+solve_2 ← {(⊃⍴⍵)=1:⍵ ⋄ (⍺+1) ∇ (⍺ get_rows_2 ⍵)}
+2⊥(1 solve_1 inp) × 2⊥(1 solve_2 inp)
