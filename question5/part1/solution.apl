@@ -10,3 +10,10 @@ call_draw_vertical ← {(⍺[1 2] vertical_index ⍺[3 4]) (⍺[1]) draw_vertica
 call_draw_horizontal ← {(⍺[1 2] horizontal_index ⍺[3 4]) (⍺[2]) draw_horizontal ⍵}
 get_final ← {(≢⍵)=0: ⍺ ⋄ c_ins ← ∊1↑⍵ ⋄ f ← c_ins[1 2] ⋄ s ← c_ins[3 4] ⋄ 1⌷f=s: (⍺+(c_ins call_draw_vertical ⍺)) ∇ (1↓⍵) ⋄ 2⌷f=s: (⍺+(c_ins call_draw_horizontal ⍺)) ∇ (1↓⍵) ⋄ ⍺ ∇ 1↓⍵}
 solve ← {final_state ← ⍺ get_final ⍵ ⋄ max ←  ⌈/⌈/ final_state ⋄ +/+⌿max⍷final_state}
+
+
+⍝ new try
+filter_ins ← {((1⌷⍵)=3⌷⍵)∨((2⌷⍵)=4⌷⍵)}
+get_filterd_input ← {(filter_ins¨ ⍵)/⍵}
+create_map ← {max ← ⌈/⌈/∊⍵ ⋄ max max ⍴ 0}
+create_index ← {⍺{(⍵>⍺-1)/⍵}⍳⍵}
