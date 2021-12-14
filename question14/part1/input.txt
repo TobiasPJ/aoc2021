@@ -1,0 +1,5 @@
+start ← 'KFVHFSSVNCSNHCPCNPVO'
+
+combinations ← 'KS' 'SP' 'OH' 'VC' 'BO' 'CV' 'FO' 'KV' 'OV' 'NB' 'FS' 'KB' 'HK' 'VP' 'SV' 'FP' 'BS' 'BP' 'OS' 'PB' 'HB' 'VN' 'FB' 'OC' 'OO' 'PC' 'FK' 'OP' 'BH' 'NP' 'KF' 'SK' 'HN' 'CB' 'SN' 'VF' 'KC' 'HF' 'NC' 'BN' 'KO' 'PS' 'HO' 'CH' 'KP' 'VK' 'BB' 'BF' 'CS' 'CN' 'PK' 'SH' 'BC' 'FN' 'BK' 'PN' 'PO' 'SC' 'NO' 'KN' 'VB' 'SF' 'FH' 'FF' 'VO' 'PH' 'CK' 'FC' 'VV' 'VH' 'OF' 'HP' 'CO' 'VS' 'SB' 'SS' 'CF' 'OK' 'ON' 'NS' 'SO' 'NV' 'NH' 'NN' 'KH' 'FV' 'KK' 'OB' 'NK' 'CC' 'PP' 'PF' 'HC' 'PV' 'BV' 'NF' 'HV' 'HH' 'HS' 'CP'
+
+value ← 'O' 'V' 'F' 'P' 'S' 'H' 'N' 'V' 'B' 'K' 'F' 'N' 'C' 'B' 'S' 'P' 'B' 'K' 'K' 'C' 'H' 'S' 'C' 'N' 'F' 'O' 'K' 'V' 'C' 'C' 'H' 'F' 'O' 'O' 'N' 'S' 'H' 'V' 'P' 'F' 'C' 'B' 'S' 'O' 'K' 'V' 'V' 'P' 'K' 'H' 'C' 'O' 'H' 'N' 'N' 'B' 'O' 'S' 'S' 'O' 'C' 'H' 'C' 'B' 'S' 'F' 'B' 'P' 'F' 'O' 'O' 'K' 'V' 'V' 'F' 'K' 'O' 'V' 'B' 'H' 'B' 'V' 'B' 'K' 'H' 'B' 'N' 'F' 'F' 'S' 'B' 'H' 'P' 'F' 'N' 'N' 'S' 'C' 'O' 'O'

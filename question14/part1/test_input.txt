@@ -1,4 +1,5 @@
-'NNCB' 
+start ← 'NNCB'
 
-'CH' 'HH' 'CB' 'NH' 'HB' 'HC' 'HN' 'NN' 'BH' 'NC' 'NB' 'BN' 'BB' 'BC' 'CC' 'CN' 
-'B' 'N' 'H' 'C' 'C' 'B' 'C' 'C' 'H' 'B' 'B' 'B' 'N' 'B' 'N' 'C' 
+combinations ← 'CH' 'HH' 'CB' 'NH' 'HB' 'HC' 'HN' 'NN' 'BH' 'NC' 'NB' 'BN' 'BB' 'BC' 'CC' 'CN'
+
+value ← 'B' 'N' 'H' 'C' 'C' 'B' 'C' 'C' 'H' 'B' 'B' 'B' 'N' 'B' 'N' 'C'
